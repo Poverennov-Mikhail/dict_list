@@ -4,4 +4,5 @@ money = int(input('Введите сумму: '))
 for i in per_cent:
     per_cent[i] *= (money /100)
 deposit = list(per_cent.values())
+print('Умноженный список: ' + str(deposit))
 print('Максимальная сумма, которую вы можете заработать — ' + str(max(deposit)))
